@@ -1,0 +1,91 @@
+* { padding: 0; margin: 0; color: #00460A; }
+li { list-style: none; }
+a { text-decoration: none; }
+
+@font-face{
+    font-family:'Raleway'; 
+    src: local('Raleway'),
+        url('Raleway.eot'),
+        url('Raleway.woff') format('woff'),
+        url('Raleway.ttf') format('truetype');
+
+        font-family:'Noto Sans KR'; 
+        src: local('Noto Sans KR'),
+            url('Noto Sans KR.eot'),
+            url('Noto Sans KR.woff') format('woff'),
+            url('Noto Sans KR.ttf') format('truetype');
+}
+
+.sans { font-family: 'Noto Sans KR', sans-serif; }
+.raleway { font-family: 'Raleway', sans-serif; font-weight: 500; }
+.noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
+.noto2 { font-family: 'Noto Sans KR', sans-serif; }
+
+/* 헤더 부분 */
+#header { width: 1920px; height: 125px;  background-color: #00460A; }
+.logo { width:220px; height: 135px; float: left; }
+.logo a { }
+.logo a img { margin-top: 20px; margin-left: 25px; }
+
+.nav { width: 1480px; height: 135px; float: left; }
+.nav ul {  }
+.nav > ul > li { font-size: 15pt; float: left; width: 250px; margin-left: 110px; text-align: center; }
+.nav > ul > li > a { display: block; padding: 50px; color: white; }
+
+.navline { border: 0.03px solid #50825A; }
+
+.submenu { display: none; z-index: 0; box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; position: relative; }
+.submenu ul { }
+.submenu ul li { background-color: white; }
+.submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
+.submenu ul li a:hover { background-color: #00460A; color: white; }
+
+.login { width: 220px; height: 135px; float: left; } 
+.login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; color: white; }
+
+#section { width: 1920px; height: 945px ;padding-top: 60px; }
+.section { width: 1215px; height: 760px; margin: 0 auto; } 
+.sec1 { width: 1215px; height: 70px; margin: 0 auto; }
+.sec1 img { }
+.sec2 { width: 475px; height: 605px; float: left; margin-top: 85px; }
+
+.sec3 { width: 578px; height: 475px; float: right; margin-top: 140px; }
+.se1 { width: 578px; height: 65px; }
+.text1 { width: 380px; height: 65px;  float: left; }
+.title { font-size: 20pt; font-weight: bold; color: #00460A; }
+.subtitle { font-size: 13pt; color: #00460A; }
+.adv { float: right; margin-top: 10px; }
+/* 관람 시간 안내 요약 부분 */
+.se2 { width: 578px; height: 286px; margin-top: 40px; background-color: #F2F2F2; }
+.text2 { float: left; padding-top: 45px;  margin-left: 80px; }
+.icon { float: left; padding: 8px; }
+span { font-size: 13pt; font-weight: 600; color: #00460A; float: left; }
+.text2 p { font-size: 12pt; font-weight: 400; margin-left: 40px; color: #4D4D4D; float: left; }
+.se3 { width: 578px; height: 50px; margin-top: 35px; text-align: center; }
+.btn a img { margin-left: 20px; }
+
+#content { width: 955px; height: 11865px; }
+#img { margin-left: 500px; float: left; }
+#bg1 { width: 1920px; height: 1658px; background-color: #F0FFF0; }
+#bg2 { width: 1920px; height: 3966px; background-color: #F0F0FF; }
+#bg3 { width: 1920px; height: 4514px;  background-color: #FAFAE6; }
+#bg4 { width: 1920px; height: 1730px;  background-color: #F0FFF0 }
+
+/* 풋터 부분*/
+#footer { width: 1920px; height: 180px; font-weight: 200; background-color: #00460A; }
+.fot1 { width: 1920px; height: 85px; }
+.fottext ul { padding-left: 50px; padding-top: 30px; }
+.fottext ul a { display: block; float: left; font-size: 13px; padding: 10px; }
+.fottext ul a li { color: white; }
+.foticon { float: right; margin-right: 40px; }
+.foticon a { padding-right: 20px; }
+.foticon a img { }
+
+.line { width: 1820px; height: 0.3px; margin-left: 50px; background-color: #50825A; }
+
+.fot2 { width: 1920px; height: 85px; }
+.text { padding-top: 20px; width: 1000px; height: 70px; float: left; }
+.text ul li { color: white; font-size: 13px; line-height: 30px; margin-left: 55px; }
+
+.fotlogo { float: right; margin-top: 30px; margin-right: 55px; }
+.fotlogo img { }

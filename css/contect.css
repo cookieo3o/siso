@@ -1,0 +1,89 @@
+* { padding: 0; margin: 0; color: #00460A; }
+li { list-style: none; }
+a { text-decoration: none; }
+
+@font-face{
+    font-family:'Raleway'; 
+    src: local('Raleway'),
+        url('Raleway.eot'),
+        url('Raleway.woff') format('woff'),
+        url('Raleway.ttf') format('truetype');
+
+        font-family:'Noto Sans KR'; 
+        src: local('Noto Sans KR'),
+            url('Noto Sans KR.eot'),
+            url('Noto Sans KR.woff') format('woff'),
+            url('Noto Sans KR.ttf') format('truetype');
+}
+
+.raleway { font-family: 'Raleway', sans-serif; font-weight: 500; }
+.noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
+.title { font-family: 'Noto Sans KR', sans-serif; font-size: 20pt; font-weight: 600; color: #00460A; }
+.not { font-family: 'Noto Sans KR', sans-serif; font-size: 14pt; font-weight: 500; color: #333333; }
+.p { font-family: 'Noto Sans KR', sans-serif; font-size: 12pt; font-weight: 400; color: #333333;  }
+
+#wrap { width: 1920px; height: 1080px; }
+
+/* 헤더 부분 */
+#header { width: 1920px; height: 125px;  background-color: #00460A; }
+.logo { width:220px; height: 135px; float: left; }
+.logo a { }
+.logo a img { margin-top: 20px; margin-left: 25px; }
+
+.nav { width: 1480px; height: 135px; float: left; }
+.nav ul {  }
+.nav > ul > li { font-size: 15pt; float: left; width: 250px; margin-left: 110px; text-align: center; }
+.nav > ul > li > a { display: block; padding: 50px; color: white; }
+
+.navline { border: 0.03px solid #50825A; }
+
+.submenu { display: none; z-index: 100; box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; position: relative; }
+.submenu ul { }
+.submenu ul li { background-color: white; }
+.submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
+.submenu ul li a:hover { background-color: #00460A; color: white; }
+
+.login { width: 220px; height: 135px; float: left; } 
+.login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; color: white; }
+
+/* contact 내용 부분 */
+#section { width: 700px; height: 900px; margin: 0 auto; margin-top: 130px; }
+.bg { margin-left: 15px; position: absolute; }
+.contact {  position: absolute; margin-left: 80px; margin-top: 130px; }
+.title { display: block; padding-bottom: 80px; position: relative; }
+.title:nth-child(3) { padding-top: 40px; }
+.note { position: absolute; width: 400px; height: 500px; top: 5px; left: 200px; }
+.not1 { margin-top: 95px; }
+.not2 { margin-top: 20px; }
+.not1 > a > p { margin-left: 35px; font-size: 13pt; }
+.not2 > a > p { margin-left: 35px; font-size: 13pt; }
+.icon1 { float: left; }
+.icon2 { float: left; margin-top: 5px; }
+.not3 { margin-top: 90px; }
+.not3 .not { margin-left: 20px; }
+.not3 .p { margin-left: 20px;}
+.not4 { margin-top: 20px; }
+.not4 .not { margin-left: 20px; }
+.not4 .p { margin-left: 20px;}
+.not5 { margin-top: 20px; }
+.not5 .line { margin-left: 20px; }
+.not5 .p { margin-left: 20px;}
+
+/* 풋터 부분*/
+#footer { width: 1920px; height: 180px; font-weight: 200; background-color: #00460A; }
+.fot1 { width: 1920px; height: 85px; }
+.fottext ul { padding-left: 50px; padding-top: 30px; }
+.fottext ul a { display: block; float: left; font-size: 13px; padding: 10px; }
+.fottext ul a li { color: white; }
+.foticon { float: right; margin-right: 40px; }
+.foticon a { padding-right: 20px; }
+.foticon a img { }
+
+.line { width: 1820px; height: 0.3px; margin-left: 50px; background-color: #50825A; }
+
+.fot2 { width: 1920px; height: 85px; }
+.text { padding-top: 20px; width: 1000px; height: 70px; float: left; }
+.text ul li { color: white; font-size: 13px; line-height: 30px; margin-left: 55px; }
+
+.fotlogo { float: right; margin-top: 30px; margin-right: 55px; }
+.fotlogo img { }

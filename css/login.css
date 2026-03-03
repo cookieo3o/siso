@@ -1,0 +1,93 @@
+* { padding: 0; margin: 0; color: #00460A; }
+li { list-style: none; }
+a { text-decoration: none; }
+
+@font-face{
+    font-family:'Raleway'; 
+    src: local('Raleway'),
+        url('Raleway.eot'),
+        url('Raleway.woff') format('woff'),
+        url('Raleway.ttf') format('truetype');
+
+        font-family:'Noto Sans KR'; 
+        src: local('Noto Sans KR'),
+            url('Noto Sans KR.eot'),
+            url('Noto Sans KR.woff') format('woff'),
+            url('Noto Sans KR.ttf') format('truetype');
+}
+
+.raleway { font-family: 'Raleway', sans-serif; font-weight: 500; }
+.noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
+.noto2 { font-family: 'Noto Sans KR', sans-serif; }
+
+#wrap { width: 1920px; } 
+
+/* 헤더 부분 */
+#header { width: 1920px; height: 125px; z-index: 100; }
+.logo { width:220px; height: 135px; float: left; }
+.logo a { }
+.logo a img { margin-top: 20px; margin-left: 25px; }
+
+.nav { width: 1480px; height: 135px; float: left; z-index: 50; }
+.nav ul {  }
+.nav > ul > li { font-size: 15pt; float: left; width: 250px; margin-left: 110px; text-align: center; }
+.nav > ul > li > a { display: block; padding: 50px; }
+
+.navline { border: 0.1px solid #50825A; }
+
+.submenu { display: none; box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; z-index: 100; position: relative; }
+.submenu ul { }
+.submenu ul li { background-color: white; }
+.submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
+.submenu ul li a:hover { background-color: #00460A; color: white; }
+
+.login { width: 220px; height: 135px; float: left; } 
+.login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; }
+
+/* 컨텐트 부분 */
+#content { z-index: 10;  width: 360px; height: 683px; margin: 0 auto; margin-top: 70px; }
+.logintxt { width: 360px; height: 30px; }
+h1 { font-weight: 400; color: #333333; text-align: center;  z-index: -100; }
+
+.box1 { margin-top: 30px; width: 360px; height: 100px; float: left; }
+input[type=text] { width: 360px; height: 40px; border: solid 0.5px #999999; outline:none; color: #999999; } 
+input[type=password] { margin-top: 15px; width: 360px; height: 40px; border: solid 0.5px #999999; outline:none; color: #999999; } 
+input[type=text]:focus { border: solid 0.5px #50825A; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; }
+input[type=password]:focus { border: solid 0.5px #50825A; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; }
+
+.box2 { width: 360px; height: 30px;  margin-top: 15px; float: left; }
+form { color: #999999; font-size: 15px; }
+input[type=checkbox]  { width: 15px; height: 15px;  border: solid 0.5px #999999; accent-color: #00460A; }
+.find { float: right; }
+.find ul { }
+.find ul li { float: left; margin-left: 5px; color: #999999; }
+
+.box3 { margin-top: 40px; width: 360px; height: 100px; float: left; }
+input[type=button] { width: 360px; height: 40px; margin-top: 5px; }
+.btn1 { background-color: #00460A; color: white; border: solid 0.25px #00460A; font-weight: 100; }
+.btn2 { background-color: white; color: #00460A; border: solid 0.25px #00460A; }
+
+.box4 { width: 360px; height: 200px; margin-top:80px; float: left; }
+.social1 { float: left; }
+.social1 img { width: 100%;}
+.social2 { text-align: center; }
+.social2 img { width: 35px; height: 35px; padding: 10px; }
+
+/* 풋터 부분*/
+#footer { width: 1920px; height: 180px; font-weight: 200; background-color: #00460A; }
+.fot1 { width: 1920px; height: 85px; }
+.fottext ul { padding-left: 50px; padding-top: 30px; }
+.fottext ul a { display: block; float: left; font-size: 13px; padding: 10px; }
+.fottext ul a li { color: white; }
+.foticon { float: right; margin-right: 40px; }
+.foticon a { padding-right: 20px; }
+.foticon a img { }
+
+.line { width: 1820px; height: 0.3px; margin-left: 50px; background-color: #50825A; }
+
+.fot2 { width: 1920px; height: 85px; }
+.text { padding-top: 20px; width: 1000px; height: 70px; float: left; }
+.text ul li { color: white; font-size: 13px; line-height: 30px; margin-left: 55px; }
+
+.fotlogo { float: right; margin-top: 30px; margin-right: 55px; }
+.fotlogo img { }
