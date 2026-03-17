@@ -20,7 +20,9 @@ a { text-decoration: none; }
 .noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
 .noto2 { font-family: 'Noto Sans KR', sans-serif; }
 
-#wrap { width: 1920px; overflow: hidden; } 
+body { overflow-x: hidden; }
+
+#wrap { width: 1920px; } 
 
 /* 헤더 부분 */
 #header { width: 1920px; height: 135px;  }
