@@ -21,7 +21,7 @@ html, body { overflow-x: hidden; }
 .noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
 .noto2 { font-family: 'Noto Sans KR', sans-serif; }
 
-#wrap { max-width: 1920px; } 
+#wrap { max-width: 100%; } 
 
 /* 헤더 부분 */
 #header { max-width: 1920px; height: 135px;  }
