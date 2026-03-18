@@ -23,20 +23,17 @@ a { text-decoration: none; }
 #wrap { width: 100%; overflow-x: hidden; }
 
 /* 헤더 부분 */
-#header { width: 1920px; height: 125px; position: fixed; background: white; z-index: 500; }
+#header { width: 1920px; height: 125px; position: fixed; background: white; z-index: 500; border-bottom: 1px solid #00460A; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
 .logo { width:220px; height: 135px; float: left; }
-.logo a { }
 .logo a img { margin-top: 20px; margin-left: 25px; }
 
 .nav { width: 1480px; height: 135px; float: left; }
-.nav ul {  }
 .nav > ul > li { font-size: 15pt; float: left; width: 250px; margin-left: 110px; text-align: center;}
 .nav > ul > li > a { display: block; padding: 50px; }
 
 .navline { border: 0.03px solid #50825A; }
 
 .submenu { display: none; margin-top: 5px; z-index: 100; box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; }
-.submenu ul { }
 .submenu ul li { background-color: white; }
 .submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
 .submenu ul li a:hover { background-color: #00460A; color: white; }
@@ -45,13 +42,13 @@ a { text-decoration: none; }
 .login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; }
 
 /* 슬라이드 부분 */
-#slide { position: relative;  width: 1920px; height: 730px; z-index: -100; }
+#slide { position: relative;  width: 1920px; height: 730px; z-index: -100; padding-top: 120px; }
 .slideimg { width: 1920px; height: 730px; }
-.slidemain { position: absolute; top: 11px; width: 1920px; height: 730px; }
+.slidemain { position: absolute; top: 120px; width: 1920px; height: 730px; }
 
 /* 콘텐트 부분 */
 #content { width: 1920px; height: 1280px; }
-.con1 img { margin-top: 110px; margin-left: 260px; } 
+.con1 img { margin-top: 110px; margin-left: 260px; }  
 .co1 { width: 1217px; height: 266px;  margin-top: 30px; margin-left: 345px; position: relative; z-index: -100; }
 .co1 img {  position: absolute; top: 0; left: 0; }
 
@@ -78,7 +75,6 @@ a { text-decoration: none; }
 .fottext ul a li { color: white; }
 .foticon { float: right; margin-right: 40px; }
 .foticon a { padding-right: 20px; }
-.foticon a img { }
 
 .line { width: 1820px; height: 0.3px; margin-left: 50px; background-color: #50825A; }
 
@@ -87,4 +83,3 @@ a { text-decoration: none; }
 .text ul li { color: white; font-size: 13px; line-height: 30px; margin-left: 55px; }
 
 .fotlogo { float: right; margin-top: 30px; margin-right: 55px; }
-.fotlogo img { }
