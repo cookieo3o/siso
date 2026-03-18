@@ -9,7 +9,7 @@ a { text-decoration: none; }
 
         font-family:'Noto Sans KR'; 
         src: local('Noto Sans KR'),
-            url('Noto Sans KR.eot');                       
+            url('Noto Sans KR.eot');                  
 }
 
 .raleway { font-family: 'Raleway', sans-serif; font-weight: 500; }
@@ -17,37 +17,34 @@ a { text-decoration: none; }
 .noto2 { font-family: 'Noto Sans KR', sans-serif; }
 
 
-#wrap { width: 1920px; height: 2260px; }
+#wrap { width: 100%; height: 2260px; overflow-x: hidden; }
 
 /* 헤더 부분 */
-#header { width: 1920px; height: 125px;  background-color: #00460A; }
+#header { width: 1920px; height: 125px;  background-color: #00460A; position: fixed; z-index: 500; }
 .logo { width:220px; height: 135px; float: left; }
-.logo a { }
 .logo a img { margin-top: 20px; margin-left: 25px; }
 
 .nav { width: 1480px; height: 135px; float: left; }
-.nav ul {  }
 .nav > ul > li { font-size: 15pt; float: left; width: 250px; margin-left: 110px; text-align: center; }
 .nav > ul > li > a { display: block; padding: 50px; color: white; }
 
 .navline { border: 0.03px solid #50825A; }
 
 .submenu { display: none; z-index: 100; box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; position: relative; }
-.submenu ul { }
 .submenu ul li { background-color: white; }
 .submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
 .submenu ul li a:hover { background-color: #00460A; color: white; }
 
-.login { width: 220px; height: 135px; float: left; } 
+.login { width: 200px !important; height: 135px; float: left; } 
 .login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; color: white; }
 .login { width: 220px; height: 135px; float: left; } 
 .login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; }
-#section1 { width: 1920px; height: 955px; }
+#section1 { width: 100%;  }
 #section1 > img { margin-top: 70px; }
 .join { width: 203px; height: 53px; margin: 0 auto; margin-top: 70px; }
 
 /* 슬라이드 부분 */
-#slide { width: 1920px; height: 955px;  position: relative; overflow: hidden; }
+#slide { width: 1920px; position: relative; padding-top: 160px; }
 .slidetext { width: 475px; height: 90px;  margin-top: 50px; margin-left: 700px; }
 .slidetext > img { text-align: center; }
 .note { width: 475px; text-align: center; line-height: 50px; color: #00460A; font-weight: 500; }
@@ -56,10 +53,10 @@ a { text-decoration: none; }
 .imglist a img { width: 1920px; }
 
 /* 슬라이드 버튼 부분 */
-.left_btn { position: absolute; top: 430px; left: 300px; z-index: 10; display: block; } 
-.right_btn { position: absolute; top: 430px; right: 300px; z-index: 10; display: block; } 
+.left_btn { position: absolute; top: 590px; left: 300px; z-index: 10; display: block; } 
+.right_btn { position: absolute; top: 590px; right: 300px; z-index: 10; display: block; } 
 
-#content { width: 1920px; height: 1000px; }
+#content { width: 100%; padding: 159px 0; }
 .con1 { margin-left: 480px; }
 .con2 { width: 938px; height: 760px; margin-left: 490px; margin-top: 50px; }
 .con2 a img { padding-right: 7px; padding-bottom: 10px; }

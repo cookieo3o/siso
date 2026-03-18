@@ -18,10 +18,10 @@ a { text-decoration: none; }
 .not { font-family: 'Noto Sans KR', sans-serif; font-size: 14pt; font-weight: 500; color: #333333; }
 .p { font-family: 'Noto Sans KR', sans-serif; font-size: 12pt; font-weight: 400; color: #333333;  }
 
-#wrap { width: 1920px; height: 1080px; }
+#wrap { width: 100%; overflow-x: hidden; }
 
 /* 헤더 부분 */
-#header { width: 1920px; height: 125px;  background-color: #00460A; }
+#header { width: 1920px; height: 125px;  background-color: #00460A; position: fixed; z-index: 500; }
 .logo { width:220px; height: 135px; float: left; }
 .logo a { }
 .logo a img { margin-top: 20px; margin-left: 25px; }
@@ -39,11 +39,11 @@ a { text-decoration: none; }
 .submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
 .submenu ul li a:hover { background-color: #00460A; color: white; }
 
-.login { width: 220px; height: 135px; float: left; } 
+.login { width: 200px; height: 135px; float: left; } 
 .login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; color: white; }
 
 /* contact 내용 부분 */
-#section { width: 700px; height: 900px; margin: 0 auto; margin-top: 130px; }
+#section { width: 700px; height: 900px; margin: 0 auto; padding-top: 260px; }
 .bg { margin-left: 15px; position: absolute; }
 .contact {  position: absolute; margin-left: 80px; margin-top: 130px; }
 .title { display: block; padding-bottom: 80px; position: relative; }

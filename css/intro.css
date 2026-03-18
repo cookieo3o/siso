@@ -21,8 +21,8 @@ a { text-decoration: none; }
 .noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
 .noto2 { font-family: 'Noto Sans KR', sans-serif; }
 
-/* 헤더 부분 */
-#header { width: 1920px; height: 125px;  background-color: #00460A; }
+/* 헤더 부분 */ 
+#header { width: 1920px; height: 125px;  background-color: #00460A; position: fixed; z-index: 500; }
 .logo { width:220px; height: 135px; float: left; }
 .logo a { }
 .logo a img { margin-top: 25px; margin-left: 25px; }
@@ -40,12 +40,12 @@ a { text-decoration: none; }
 .submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
 .submenu ul li a:hover { background-color: #00460A; color: white; }
 
-.login { width: 220px; height: 135px; float: left; } 
+.login { width: 200px; height: 135px; float: left; } 
 .login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; color: white; }
 
-#wrap { width: 1920px; height: 2025px; }
+#wrap { width: 100%; overflow-x: hidden; }
 
-#section { position: relative; width: 1220px; height: 775px; margin: 0 auto; margin-top: 60px; }
+#section { position: relative; width: 1220px; height: 775px; margin: 0 auto; margin-top: 260px;}
 .sec1 { width: 357px; height: 166px; margin-left: 10px; float: left; margin-top: 330px; }
 .sec2 { width: 197px; height: 102px; float: left; }
 .sec3 { width: 726px; height: 490px; float: right; margin-right: 10px; margin-top: 15px; }
@@ -62,7 +62,7 @@ a { text-decoration: none; }
 .span { position: absolute; top: 125px; left: 150px; font-size: 14pt; font-weight: 350; }
 
 /* 풋터 부분*/
-#footer { width: 1920px; height: 180px; font-weight: 200; background-color: #00460A; }
+#footer { width: 1920px; height: 190px; font-weight: 200; background-color: #00460A; }
 .fot1 { width: 1920px; height: 85px; }
 .fottext ul { padding-left: 50px; padding-top: 30px; }
 .fottext ul a { display: block; float: left; font-size: 13px; padding: 10px; }

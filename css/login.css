@@ -20,28 +20,25 @@ a { text-decoration: none; }
 .noto { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 15pt; }
 .noto2 { font-family: 'Noto Sans KR', sans-serif; }
 
-#wrap { width: 1920px; } 
+#wrap { width: 100%; overflow-x: hidden; } 
 
 /* 헤더 부분 */
 #header { width: 1920px; height: 125px; z-index: 100; }
 .logo { width:220px; height: 135px; float: left; }
-.logo a { }
 .logo a img { margin-top: 20px; margin-left: 25px; }
 
 .nav { width: 1480px; height: 135px; float: left; z-index: 50; }
-.nav ul {  }
 .nav > ul > li { font-size: 15pt; float: left; width: 250px; margin-left: 110px; text-align: center; }
 .nav > ul > li > a { display: block; padding: 50px; }
 
 .navline { border: 0.1px solid #50825A; }
 
 .submenu { display: none; box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; z-index: 100; position: relative; }
-.submenu ul { }
 .submenu ul li { background-color: white; }
 .submenu ul li a { display: block; padding: 20px 25px 20px 25px ; }
 .submenu ul li a:hover { background-color: #00460A; color: white; }
 
-.login { width: 220px; height: 135px; float: left; } 
+.login { width: 200px; height: 135px; float: left; } 
 .login p { font-size: 13pt; float: right; margin-top: 20px; margin-right: 20px; }
 
 /* 컨텐트 부분 */
@@ -59,7 +56,6 @@ input[type=password]:focus { border: solid 0.5px #50825A; box-shadow: rgba(99, 9
 form { color: #999999; font-size: 15px; }
 input[type=checkbox]  { width: 15px; height: 15px;  border: solid 0.5px #999999; accent-color: #00460A; }
 .find { float: right; }
-.find ul { }
 .find ul li { float: left; margin-left: 5px; color: #999999; }
 
 .box3 { margin-top: 40px; width: 360px; height: 100px; float: left; }
@@ -81,7 +77,6 @@ input[type=button] { width: 360px; height: 40px; margin-top: 5px; }
 .fottext ul a li { color: white; }
 .foticon { float: right; margin-right: 40px; }
 .foticon a { padding-right: 20px; }
-.foticon a img { }
 
 .line { width: 1820px; height: 0.3px; margin-left: 50px; background-color: #50825A; }
 
@@ -90,4 +85,3 @@ input[type=button] { width: 360px; height: 40px; margin-top: 5px; }
 .text ul li { color: white; font-size: 13px; line-height: 30px; margin-left: 55px; }
 
 .fotlogo { float: right; margin-top: 30px; margin-right: 55px; }
-.fotlogo img { }
